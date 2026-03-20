@@ -8,8 +8,32 @@ The application fetches developer-related articles from an external API (Dev.to)
 
 ---
 
-### Deployed Link
+### Access:
 http://13.60.78.237:3000/
+
+## Deployment on AWS
+
+The application is deployed on an AWS EC2 instance using Docker and docker-compose.
+
+### Deployment Steps
+
+1. Launch an EC2 instance (Ubuntu)
+2. Install Docker and Docker Compose
+3. Clone the repository on the instance
+4. Configure environment variables (`backend/.env`)
+5. Run the application using: docker-compose up --build -d
+
+
+---
+
+### Architecture
+
+- Frontend is built using Vite and served via **Nginx container**
+- Nginx also acts as a **reverse proxy** for API requests
+- Backend runs as a separate **Node.js container**
+- MongoDB Atlas is used as a managed database
+
+---
 
 ## Key Features
 
