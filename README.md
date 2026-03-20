@@ -8,6 +8,9 @@ The application fetches developer-related articles from an external API (Dev.to)
 
 ---
 
+### Deployed Link
+http://13.60.78.237:3000/
+
 ## Key Features
 
 ### Backend
@@ -196,13 +199,6 @@ From project root:
 ```
 docker-compose up --build
 ```
-
----
-
-### Access
-
-* Frontend: http://localhost:3000
-* Backend API: http://localhost:5000/api/resources
 
 ---
 
