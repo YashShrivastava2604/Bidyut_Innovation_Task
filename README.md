@@ -9,7 +9,7 @@ The application fetches developer-related articles from an external API (Dev.to)
 ---
 
 ### Access:
-http://13.60.78.237:3000/
+http://13.63.200.124:3000/
 
 ## Deployment on AWS
 
